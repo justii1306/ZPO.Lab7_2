@@ -6,7 +6,7 @@ public class MyThread extends NotifyingThread {
     private int primeNumbers;
 
     public MyThread(int start, int end) {
-        System.out.println("Thread " + this.getName() + " is calculating interval [" + start + ";" + end + "].");
+        System.out.println("Thread " + this.getName() + " is calculating interval [" + start + ";" + end + "]."); //Napisz jaki przedział sprawdzamy
         this.start = start;
         this.end = end;
         this.primeNumbers = 0;
